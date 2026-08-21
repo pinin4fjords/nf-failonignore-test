@@ -1,4 +1,5 @@
 process FAILME {
+    container 'alpine:3.19'
     errorStrategy 'ignore'
 
     script:
